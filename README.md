@@ -19,7 +19,7 @@ Bootstrap   / CSS ile gelen özellikleri geliştirme, kolay kullanım kazanma ve
 Java Script / Arka planda çalışan ve site içinde aktif olan dinamik yapıları hazırlamak için kullanıldı.
 
 
-HTML        / Used for creating main draft and transfer it to World Wide Web.                    
-CSS         / Used for little changes on main draft and creating better visual appearance.                      
-Bootstrap   / Used for supporting features that comes with CSS, creating easier use to site and better design.            
+HTML        / Used for creating main draft and transfer it to World Wide Web.
+CSS         / Used for little changes on main draft and creating better visual appearance.
+Bootstrap   / Used for supporting features that comes with CSS, creating easier use to site and better design.
 Java Script / Used for creating algorithms that running at background and active dynamic structures on the site.
