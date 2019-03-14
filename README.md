@@ -1,6 +1,6 @@
 # Web-Dev-Project
 
-#Giriş(Introduction)
+Giriş(Introduction)
 
 Bu proje sadece öğrenme amacı ile yapılmıştır. Okulda henüz bu bilgileri öğrenmediğimizden ben bu projeyi yaparak kendi kendime
 öğrenmeyi denedim, bu sebepten hatalarım olabilir ancak her zaman daha iyiye gidecek.
@@ -12,10 +12,10 @@ project and surely I could have some mistakes but it will go better every time.
 
 
 
-#Kullanılan Teknolojiler (Technologies Used)
+Kullanılan Teknolojiler (Technologies Used)
 
 
-HTML 	      / Ana taslağı oluşturmak ve Word Wide Web'e aktarabilmek için kullanıldı.
+HTML        / Ana taslağı oluşturmak ve Word Wide Web'e aktarabilmek için kullanıldı.
 
 CSS         / Ana taslağa birkaç değişiklik yapmak ve daha güzel bir görünüm kazandırmak için kullanıldı.
 
