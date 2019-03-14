@@ -1,0 +1,175 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <meta charset="utf-8">
+    <style>
+        .homeImg{
+            height: 100%;
+            width: 100% ;           
+            background-image: url(https://cdn.allwallpaper.in/wallpapers/6230x1720/16897/sunrise-night-widescreen-6230x1720-wallpaper.jpg)
+            
+        }
+        .center{
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <a class="navbar-brand" href="#">NIYAS</a>
+            <a class="nav-link text-secondary" href="index.html">Home</a>
+            <a class="nav-link text-secondary" href="videoplayer.html">YT Video Player</a>
+        </nav>
+    </header>
+    <div class="homeImg text-white">
+        <div class="center">
+            <h1>W E L C O M E</h1> <br>
+            <h4>Please enjoy your stay at my bad looking site. It is still in progress.</h4>
+        </div>
+    </div>
+    <!-- <div class="jumbotron text-center" style="background-image:url(http://wallpapersexpert.com/data/out/4/3295360-fantasy-world-wallpapers.jpg)">
+        <h1>Welcome</h1>
+        <p>Please enjoy your stay at my bad looking site.</p>
+    </div> -->
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Why I Did This Site?</h2>
+                    <p>Because it is fun and educative for a new web developer. I mean I am not considering my self as
+                        a
+                        web
+                        developer yet but I am trying to get there.
+                    </p>
+            </div>
+
+            <div class="col">
+                <h3>Is This End of My Work?</h2>
+                    <p>Of course not, I will keep learning new things and eventualy when I can design an ok web site I
+                        will move to
+                        another subject.
+                    </p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col text-center">
+                <h3>Some of My D&D Characthers</h2>
+                    <p>I had lots of characthers until now but I will always remember these three.</p>
+                    <table class="table table-dark table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <td>Id</td>
+                                <td>Name</td>
+                                <td>Surname</td>
+                                <td>Class</td>
+                                <td>Money</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Valkorion</td>
+                                <td>Null</td>
+                                <td>Warlock</td>
+                                <td>700g</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Maedra</td>
+                                <td>Phantomhive</td>
+                                <td>Bard</td>
+                                <td>1500g</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Mergin</td>
+                                <td>Hardgoog</td>
+                                <td>Wizard</td>
+                                <td>4500g</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <br>
+                <h4>How to Use Dice Roller?</h4>
+                <br>
+                <p>What you need to do is, first enter how many dice you need then write d and then write your dice
+                    number. Meaning that how many sided dice you want.
+                    For example when I write 2d10, the dice roller will roll 2 dice with 10 sides and each dice will
+                    give me numbers between 1-10.
+                </p>
+                <br>
+                <h4>Is It Realy Random?</h4>
+                <p>You can check that by clicking calculate randomness.It will give you 1000000d10 dice rolls result,
+                    which number how many times rolled.</p>
+            </div>
+            <div class="form-group">
+
+                <div class="col">
+                    <p id="diceError" class="text-danger"></p>
+                    <input id="inpDice" class="form-control" type="text" name="inpDice" placeholder="1d20, 2d8, 5d12... ?d?">
+                    <br>
+                    <input type="submit" class="btn btn-primary" name="rolldice" value="Roll Dice" id="btnDiceRoll"
+                        onclick="rollDice()">
+                    <input type="submit" class="btn btn-secondary" id="calc" value="Calculate Randomness" onclick="calcRand()">
+                    <input type="submit" class="btn btn-warning" id="clear" onclick="clearText()" value="Clear All">
+                    <br> <br>
+                    <textarea name="DiceResult" disabled class="textarea text-white bg-dark" id="diceResult" cols="50"
+                        rows="10"></textarea>
+
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <input id="inpUsername" type="text" class="form-control" placeholder="User Name">
+                    </div>
+                    <div class="form-group">
+                        <input id="inpEmail" type="email" class="form-control" placeholder="E-Mail">
+                    </div>
+                    <div class="form-group">
+                        <input id="inpPassword" type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div id="btnSubmit" class="btn btn-primary">Login</div>
+                </form>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div> -->
+    <br> <br> <br>
+    <script src="index.css"></script>
+    <script src="index.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>
